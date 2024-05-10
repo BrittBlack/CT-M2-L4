@@ -18,3 +18,11 @@ genres = ['Jazz', 'Rock', 'Hip-hop', 'Classical']
 genres_update = [i + ' Music' for i in genres ]
 
 print(genres_update)
+
+#Task 3: Numerical Beats with range
+
+timer = 10
+for i in range(timer, 0, -1):
+    print(i)
+    if i == 1:
+        print("The beat drops now!")
